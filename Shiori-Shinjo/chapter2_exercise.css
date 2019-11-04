@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	padding: 20px 8px;
+}
+
+h1 {
+	color: orange;
+	padding-bottom: 10px;
+}
+
+h2, p, a{
+	padding: 10px 0;
+}
+
+
