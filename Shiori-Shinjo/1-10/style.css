@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.contents-box {
+	float: left;
+	width: 300px;
+	border: 1px solid #eee;
+	margin-right: 30px;
+	position: relative;
+	padding: 10px;
+}
+
+.contents-box:nth-child(3) {
+	margin-right: 0;
+}
+
+.contents-panel {
+	width: 100%;
+}
+
+.contents-image {
+	width: 100%;
+}
+
+.contents-number {
+	background-color: orange;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		width: 90%;
+	}
+
+	.contents-box {
+		width: 100%;
+		margin: 0 0 20px 0;
+		float: none;
+	}
+
+	.contents-box:last-child {
+		margin: 0;
+	}
+}
+
+
